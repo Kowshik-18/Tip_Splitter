@@ -77,12 +77,6 @@ function calculation(){
         tipAmount = 0.00;
         total = 0.00;
     }
-    else{
-        errorHandle('bill-error', 'bill-error-outline');
-        errorHandle('people-error', 'people-error-outline');
-        tipAmount = 0.00;
-        total = 0.00;
-    }
 }
 
 //--------------- error handling function --------------
