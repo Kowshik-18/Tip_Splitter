@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+body {
+  font-family: "Space Mono", monospace;
+  background-color: rgb(210, 242, 245);
+}
+
+.main-section {
+  margin-top: 10vh;
+}
+
+.main-article {
+  border-radius: 12px;
+}
+
+p {
+  font-weight: 600;
+}
+
+.text-header h3 {
+  color: hsl(183, 100%, 15%);
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+/* ===========
+    input part  
+    
+    ========== */
+
+.bill_amount {
+  background-color: hsl(198, 25%, 92%);
+  /* border: none; */
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+
+.bill_amount span {
+  margin: 0.7rem;
+}
+
+.bill_amount input {
+  margin: 0.7rem;
+  border: none !important;
+  background-color: hsl(198, 25%, 92%);
+  text-align: right;
+  color: hsl(183, 100%, 15%);
+  font-size: 900;
+  border: hidden !important;
+  word-wrap: break-word;
+}
+
+.bill_amount input:focus {
+  outline: none;
+}
+
+.all-percentage {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 8px;
+}
+
+.all-percentage button {
+  background-color: #00494d;
+  color: white;
+  font-weight: 600;
+}
+
+.all-percentage .active-one {
+  background-color: #26c0ab;
+  color: #00494d;
+}
+
+.all-percentage .custom-one {
+  background-color: hsl(198, 25%, 92%);
+}
+
+.all-percentage button:hover {
+  background-color: #26c0ab;
+  color: #00494d;
+}
+
+#custom {
+  width: 100%;
+  background-color: inherit !important;
+  border: none !important;
+  outline: none;
+  text-align: center;
+  font-weight: 900;
+  color: #00494d;
+}
+
+/* ===========
+    output card part  
+    
+    ========== */
+
+.output-card {
+  width: 22rem;
+  background-color: #00494d;
+  border-radius: 12px;
+}
+
+.right-part p {
+  font-weight: 400;
+  color: white;
+}
+
+.right-part p span {
+  font-weight: 400;
+  color: #7f9b8d;
+}
+
+.amount h1 {
+  color: #26c0ab;
+  font-weight: 600;
+}
+
+.output-card .card-body button {
+  background-color: #26c0ab;
+  color: #00494d;
+  font-weight: 700;
+}
+
+/* ===========
+    footer part  
+    
+    ========== */
+
+.footer-details {
+  color: hsl(183, 100%, 15%);
+}
+
+.footer-details a {
+  text-decoration: none;
+  color: hsl(172, 67%, 45%);
+}
+
+.footer-details a:hover {
+  text-decoration: none;
+  color: hsl(183, 100%, 15%);
+}
